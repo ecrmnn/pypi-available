@@ -1,0 +1,31 @@
+{
+  "name": "pypi-available",
+  "version": "1.0.0",
+  "description": "Check if a package name is available on PyPI",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecrmnn/pypi-available"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Daniel Eckermann",
+    "email": "danieleckermann@gmail.com",
+    "url": "http://danieleckermann.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecrmnn/pypi-available/issues"
+  },
+  "homepage": "https://github.com/ecrmnn/pypi-available",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.15.3"
+  }
+}
